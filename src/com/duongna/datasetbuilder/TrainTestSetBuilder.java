@@ -57,7 +57,7 @@ public class TrainTestSetBuilder {
 		System.out.println("Complete copying!!!");
 		
 		
-		int numFilesInTest = numOfFiles * 30 / 100;
+		int numFilesInTest = numOfFiles * 10 / 100;
 		List<String> fileAlreadyInTest = new LinkedList<String>();
 
 		System.out.println("Moving " + numFilesInTest + " emails from train set to test set...");
